@@ -1,5 +1,8 @@
 // enums1.rs
-// No hints this time! ;)
+
+/*
+    Enums separated by commas
+ */
 
 #[derive(Debug)]
 enum Message {
