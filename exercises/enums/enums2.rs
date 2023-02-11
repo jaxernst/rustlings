@@ -6,11 +6,11 @@
 enum Message {
     ChangeColor(u8, u8, u8),
     Echo(String),
-    Move{ x: i32, y: i32 },
+    Move{ x: i32, y: i32 }, // Interesting syntax, is this treate as a struct?
     Quit
 }
 
-impl Message {
+impl Message { 
     fn call(&self) {
         println!("{:?}", self);
     }
