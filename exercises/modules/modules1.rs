@@ -1,6 +1,11 @@
 // modules1.rs
 // Execute `rustlings hint modules1` or use the `hint` watch subcommand for a hint.
 
+/*
+    Functions are private by default
+*/
+
+
 mod sausage_factory {
     // Don't let anybody outside of this module see this!
     fn get_secret_recipe() -> String {
