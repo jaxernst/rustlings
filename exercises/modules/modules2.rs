@@ -6,7 +6,7 @@
 // I AM NOT DONE
 
 mod delicious_snacks {
-    // TODO: Fix these use statements
+
     use self::fruits::PEAR as fruit; 
     use self::veggies::CUCUMBER as veggie;
 
