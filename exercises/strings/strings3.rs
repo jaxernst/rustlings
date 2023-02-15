@@ -7,11 +7,11 @@ fn trim_me(input: &str) -> String {
 }
 
 fn compose_me(input: &str) -> String {
-    return format!("{input} world!");
+    return format!("{input} world!"); // The power of macros! Would be nice to have syntax highlighting
 }
 
 fn replace_me(input: &str) -> String {
-    return input.replace("cars", "balloons");
+    return input.replace("cars", "balloons"); // JS like string replace
 }
 
 #[cfg(test)]
