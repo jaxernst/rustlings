@@ -18,7 +18,7 @@ fn replace_me(input: &str) -> String {
 mod tests {
     use super::*;
 
-    #[test]
+    #[test] // What doe test macros do?
     fn trim_a_string() {
         assert_eq!(trim_me("Hello!     "), "Hello!");
         assert_eq!(trim_me("  What's up!"), "What's up!");
