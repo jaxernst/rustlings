@@ -2,7 +2,7 @@
 // Execute `rustlings hint strings3` or use the `hint` watch subcommand for a hint.
 
 
-fn trim_me(input: &str) -> String {
+fn trim_me(input: &str) -> String { // borrow and check :)
     return input.trim().to_string();
 }
 
